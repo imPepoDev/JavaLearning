@@ -1,9 +1,7 @@
-import java.util.Locale;
-import java.util.Scanner;
+package br.com.aprendizado;
 
-public class Main {
-    public static void main(String[] args) {
-
+public class funcoesAritmeticas {
+    public static void funcoesAritmeticas(String args[]) {
         double a = Math.sqrt(4);
 
         System.out.println(a);
@@ -15,6 +13,5 @@ public class Main {
         double c = Math.abs(4);
 
         System.out.println(c);
-
     }
 }
